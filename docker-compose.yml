@@ -10,4 +10,7 @@ services:
     build:
       dockerfile: flask.Dockerfile
       context: .
-
+  django:
+    build:
+      dockerfile: django.Dockerfile
+      context: .
